@@ -1,0 +1,77 @@
+.container {
+  display: flex;
+  height: 100vh;
+  margin: 0px;
+  flex-direction: column;
+}
+
+header {
+  height: 10vh;
+  background-color: black;
+  display: flex;
+}
+
+.heading {
+  padding: auto;
+  color: white;
+}
+
+nav {
+  height: 5vh;
+  padding-top: 1vh;
+  padding-bottom: 1vh;
+  background-color: rgb(133, 181, 240);
+  display: flex;
+  justify-content: space-around;
+}
+
+a {
+  padding-top: 2px;
+  color: black;
+  font-size: 25px;
+  text-decoration: none;
+}
+
+.content {
+  flex: 1;
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  background-color: rgba(232, 232, 232, 0.929);
+}
+
+.box {
+  margin: 3vh;
+  height: 350px;
+  width: 200px;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+}
+
+.item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.price {
+  color: orangered;
+}
+
+footer {
+  height: 10vh;
+  background-color: rgba(126, 121, 121, 0.381);
+  display: flex;
+  justify-content: space-around;
+  padding-top: 2vh;
+  padding-bottom: 2vh;
+  margin-bottom: 2vh;
+}
+
+.contact {
+  padding-top: 2px;
+  color: black;
+  font-size: 18px;
+  text-decoration: none;
+}
